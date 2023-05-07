@@ -1,5 +1,5 @@
 Hello, This is the first line of the file for testing and would you get this
-helo this is second line
+Hello this is second line
 please find the details on different scenarios covered-
 
 1) The empty string should give empty list with no words
@@ -12,4 +12,5 @@ please find the details on different scenarios covered-
 8) String with alphanumeric words  are considered as unique words such as  abc123 6abc789
 
 word1 world1@ world#1
+abc123 6abc789
  okay*
