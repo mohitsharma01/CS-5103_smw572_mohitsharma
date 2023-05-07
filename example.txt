@@ -1,0 +1,15 @@
+Hello, This is the first line of the file for testing and would you get this
+helo this is second line
+please find the details on different scenarios covered-
+
+1) The empty string should give empty list with no words
+2) The string with one word must give one word as output in list
+3) The string with space in between each word should give expected output
+4) The string with many lines should identify the newline character and give correct word count
+5) The string with a tab between each word should omit the tab , consider it as delimiter
+6) The string with large size should pass too and the string should give correct word count 
+7) Special characters in a string will be considered as a characters and will print separate words.
+8) String with alphanumeric words  are considered as unique words such as  abc123 6abc789
+
+word1 world1@ world#1
+ okay*
