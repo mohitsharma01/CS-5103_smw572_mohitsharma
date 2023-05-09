@@ -1,6 +1,11 @@
 """
- unique word count Program: This program counts the frequency of each unique word. Input string is passed in program for testing through a text file.
+   FileName: program_count_characters_line_distinct_words.py
+   Author:   Mohit Sharma(smw572)
+   Program:  Word/lines/Char count 
+             ## Unique word count Program: This program counts the frequency of distinct words, number of lines and number of characters in an input string.
+                                          Input string is passed in as an argument in a text file  program for testing.
 """
+
 import re
 
 def get_unique_words_frequency(input_string): 

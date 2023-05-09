@@ -1,4 +1,9 @@
-from count_characters_line_distinct_words import get_unique_words_frequency
+"""
+   FileName: UnitTestCases_distinctWords.py
+   Author:   Mohit Sharma(smw572)
+   Program:  Unit test cases for the get_unique_words_frequency Method written as part of the Phase 1 (Initail project requirements)
+"""
+from program_count_characters_line_distinct_words import get_unique_words_frequency
    # The code to test
 import unittest   # The test framework
 text = open("input_example.txt", "r")

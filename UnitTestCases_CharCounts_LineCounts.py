@@ -1,4 +1,10 @@
-from count_characters_line_distinct_words import getNumberOfCharacters, getNumberOfLines
+"""
+   FileName: UnitTestCases_CharCounts_LineCounts.py
+   Author:   Mohit Sharma(smw572)
+   Program:  Unit test cases for the getNumberOfCharacters and getNumberOfLines Methods written as part of the Phase 2 (First requirement Changes)
+
+"""
+from program_count_characters_line_distinct_words import getNumberOfCharacters, getNumberOfLines
    # The code to test
 import unittest   # The test framework
 text = open("input_multiple_lines.txt", "r")
@@ -48,4 +54,3 @@ class Test_CharCount_LineCount(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-   git status
