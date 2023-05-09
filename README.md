@@ -6,10 +6,15 @@ This project will demonstrate all software engineering practices with a small im
 # count_characters_line_distinct_words.py
   Prints the number of character counts, word count and the lines presentin the input file String. This Python program can be executed for any input which is present inthe input_example file. main of this program calls three other methods of this program which are invoked by passing the file name as an argument.
   Below are the three unit methods where getNumberOfCharacters and getNumberOfLines have been added as part of change in requirements to the first program/phase.
-  # getNumberOfCharacters
-    This method takes an in
-  # getNumberOfLines
-  # getUniqueWords
+  # 1- getNumberOfCharacters
+    This method counts, prints and return the number of character in the input string.
+
+  # 2- getNumberOfLines
+    This method counts, prints and return the number of lines in the input string.
+
+  # 3- getUniqueWords
+    This method prints the distict words with their count in the input string.
+
 
 # wordFreq.py
 wordFreq.py file of this project will be required to run using any python editor 
