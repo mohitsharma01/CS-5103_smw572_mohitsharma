@@ -17,12 +17,12 @@ class Test_wordcount(unittest.TestCase):
 
        #Negative Scenarios
        def test_1_When_input_file_is_empty(self):
-           text = open("input_emptyString.txt", "r")
+           text = open("input_emptyString.txt", "r");
            s = text.read()
            self.assertEqual(get_updated_string_after_replacement(s,"","Hi"), "Error: Input String is Empty")
            
        def test_2_When_any_of_the_input_words_are_an_empty_string(self):
-           text = open("input_word_replacement.txt", "r")
+           text = open("input_word_replacement.txt", "r");
            s = text.read()
            self.assertEqual(get_updated_string_after_replacement(s,"","Hi"), "Error: Invalid input..")
            
@@ -36,5 +36,11 @@ class Test_wordcount(unittest.TestCase):
            text = open("input_replace_word_example.txt", "r")
            s = text.read()
            self.assertEqual(get_updated_string_after_replacement(s,"ab","Hi"), "Hi cd Hi")
+
+       def test_5_When_both_the_input_words_are_same(self):
+           text = open("input_replace_word_example.txt", "r")
+           s = text.read()
+           self.assertEqual(get_updated_string_after_replacement(s,"a","c"), "ab cd ab")    
+
 if __name__ == '__main__':
     unittest.main()
